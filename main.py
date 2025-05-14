@@ -1,3 +1,5 @@
+import os
+import sys
 import argparse
 from pytube.exceptions import RegexMatchError
 from pytube import YouTube

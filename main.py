@@ -1,7 +1,6 @@
 import argparse
 from pytube.exceptions import RegexMatchError
 from pytube import YouTube
-from pytube.cli import on_progress
 from urllib.parse import urlparse
 
 def some_callback_function(stream, chunk, bytes_remaining):
